@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Polilengua E-learning</string>
+     <string moduleConfig="true" name="CodePushDeploymentKey">DeploymentKey</string>
+</resources>
