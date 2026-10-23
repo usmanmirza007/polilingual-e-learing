@@ -21,7 +21,7 @@
     "bundle-a": "cd android && ./gradlew bundleRelease && cd ..",
     "reverse": "adb reverse tcp:8081 tcp:8081",
     "prelease": "sh release",
-    "build-a": "cd android && ./gradlew assembleRelease && cd ..",
+    "build-a": "node api.js && cd android && ./gradlew assembleRelease && cd ..",
     "release-a": "yarn prelease && android/gradlew assembleRelease",
     "shake-a": "adb shell input keyevent 82",
     "beta-ios": "cd ios && bundle exec fastlane beta && cd ..",
